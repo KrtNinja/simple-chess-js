@@ -1,0 +1,13 @@
+{
+  "name": "simple-chess-js",
+  "version": "1.0.0",
+  "description": "Simple chess. Training",
+  "type": "module",
+  "scripts": {},
+  "author": "Ivan Shabanov <kitonashi@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.28.0",
+    "prettier": "2.8.0"
+  }
+}
