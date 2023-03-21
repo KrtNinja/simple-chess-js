@@ -2,12 +2,19 @@
   "name": "simple-chess-js",
   "version": "1.0.0",
   "description": "Simple chess. Training",
-  "type": "module",
-  "scripts": {},
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
   "author": "Ivan Shabanov <kitonashi@yandex.ru>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "8.28.0",
-    "prettier": "2.8.0"
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.8.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "4.13.1"
   }
 }
